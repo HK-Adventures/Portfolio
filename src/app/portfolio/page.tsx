@@ -86,20 +86,7 @@ export default function Portfolio() {
                 key={item}
                 className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow"
               >
-                <div className="aspect-video bg-gray-200">
-                  <img
-                    src={`https://tse2.mm.bing.net/th?id=OIP.OKZUeK-0iMLqKEtMPTLU7gHaE8&pid=Api&P=0&h=220?height=200&width=300`}
-                    alt={`Project ${item}`}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-1">
-                  <h3 className="font-semibold mb-2">Project {item}</h3>
-                  <p className="text-sm text-black">
-                    A brief description of the project and the technologies used in its development.
-                  </p>
-                    <a href={`/portfolio/project-${item}` }>View Project</a>
-                </div>
+              
               </div>
             ))}
           </div>
